@@ -9,7 +9,7 @@ import random
 x=1
 not_playing=['aakarsh', 'sayem', 'didum', 'navin']#add those who are not here with lowercase
 # Load the Excel workbook
-workbook = xl.load_workbook('2412names.xlsx')  # Replace '2412.xlsx' with your Excel file name
+workbook = xl.load_workbook('2412_NAMES.xlsx')  # Replace '2412_NAMES.xlsx' with your Excel file name
 
 # Select the appropriate sheet
 sheet = workbook.active  # You can use sheet = workbook['SheetName'] to select a specific sheet
