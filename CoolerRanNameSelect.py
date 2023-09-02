@@ -11,7 +11,7 @@ x = 1
 not_playing = ['aakarsh', 'sayem', 'didum', 'navin']
 
 # Load the Excel workbook
-workbook = xl.load_workbook('2412names.xlsx')  # Replace '2412.xlsx' with your Excel file name
+workbook = xl.load_workbook('2412_NAMES.xlsx')  # Replace '2412.xlsx' with your Excel file name
 sheet = workbook.active
 
 # Get the number of rows in the sheet
